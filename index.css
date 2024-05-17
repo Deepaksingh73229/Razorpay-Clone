@@ -1,0 +1,42 @@
+.features{
+    background-size: 100% 100%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.razorpay_join{
+    background-size: cover;
+}
+
+.banner{
+    animation: 30s infinite linear movimg;
+}
+
+@keyframes movimg {
+    from {
+        top : 0%;
+    }
+
+    to {
+        top: -160%;
+    }
+}
+
+.extralight{
+    font-weight: 500;
+}
+
+.featureCard1:hover{
+    background: url("./images/features-wave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+}
+
+.featurecard2:hover{
+    background: url("./images/features2-wave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+}
